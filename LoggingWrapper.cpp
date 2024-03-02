@@ -1,3 +1,21 @@
+/**
+ * \author Simon Blum
+ * \biref A simple wrapper for easylogging++.
+ * \details
+ * This wrapper handles simultaneous outputs to the console and to a log file.
+ * It also allows to easily log at different levels. The compiled library
+ * also includes the easylogging++ library.
+ * Both headers need to be added to the project, however only this header needs
+ * to be included to allow for logging.
+ * Easylogging++ will not be configured or initialised in this library.
+ *
+ * \todo
+ * - More easily allow for verbosity options.
+ * - Check performance -> Especially compare to std::cout.
+ *
+ * \copyright MIT License 2024
+ **/
+
 #include "LoggingWrapper.hpp"
 
 namespace utils {
